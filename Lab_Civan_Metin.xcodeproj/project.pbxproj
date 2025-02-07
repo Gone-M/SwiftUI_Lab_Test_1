@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		80E774732D56A13E0074DD62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80E7745A2D56A13C0074DD62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80E774612D56A13C0074DD62;
+			remoteInfo = Lab_Civan_Metin;
+		};
+		80E7747D2D56A13E0074DD62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80E7745A2D56A13C0074DD62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80E774612D56A13C0074DD62;
+			remoteInfo = Lab_Civan_Metin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80E774622D56A13C0074DD62 /* Lab_Civan_Metin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab_Civan_Metin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E774722D56A13E0074DD62 /* Lab_Civan_MetinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab_Civan_MetinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E7747C2D56A13E0074DD62 /* Lab_Civan_MetinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab_Civan_MetinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		80E774642D56A13C0074DD62 /* Lab_Civan_Metin */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Lab_Civan_Metin;
+			sourceTree = "<group>";
+		};
+		80E774752D56A13E0074DD62 /* Lab_Civan_MetinTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Lab_Civan_MetinTests;
+			sourceTree = "<group>";
+		};
+		80E7747F2D56A13E0074DD62 /* Lab_Civan_MetinUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Lab_Civan_MetinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80E7745F2D56A13C0074DD62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E7746F2D56A13E0074DD62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E774792D56A13E0074DD62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80E774592D56A13C0074DD62 = {
+			isa = PBXGroup;
+			children = (
+				80E774642D56A13C0074DD62 /* Lab_Civan_Metin */,
+				80E774752D56A13E0074DD62 /* Lab_Civan_MetinTests */,
+				80E7747F2D56A13E0074DD62 /* Lab_Civan_MetinUITests */,
+				80E774632D56A13C0074DD62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80E774632D56A13C0074DD62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80E774622D56A13C0074DD62 /* Lab_Civan_Metin.app */,
+				80E774722D56A13E0074DD62 /* Lab_Civan_MetinTests.xctest */,
+				80E7747C2D56A13E0074DD62 /* Lab_Civan_MetinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80E774612D56A13C0074DD62 /* Lab_Civan_Metin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E774862D56A13E0074DD62 /* Build configuration list for PBXNativeTarget "Lab_Civan_Metin" */;
+			buildPhases = (
+				80E7745E2D56A13C0074DD62 /* Sources */,
+				80E7745F2D56A13C0074DD62 /* Frameworks */,
+				80E774602D56A13C0074DD62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				80E774642D56A13C0074DD62 /* Lab_Civan_Metin */,
+			);
+			name = Lab_Civan_Metin;
+			packageProductDependencies = (
+			);
+			productName = Lab_Civan_Metin;
+			productReference = 80E774622D56A13C0074DD62 /* Lab_Civan_Metin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80E774712D56A13E0074DD62 /* Lab_Civan_MetinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E774892D56A13E0074DD62 /* Build configuration list for PBXNativeTarget "Lab_Civan_MetinTests" */;
+			buildPhases = (
+				80E7746E2D56A13E0074DD62 /* Sources */,
+				80E7746F2D56A13E0074DD62 /* Frameworks */,
+				80E774702D56A13E0074DD62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80E774742D56A13E0074DD62 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				80E774752D56A13E0074DD62 /* Lab_Civan_MetinTests */,
+			);
+			name = Lab_Civan_MetinTests;
+			packageProductDependencies = (
+			);
+			productName = Lab_Civan_MetinTests;
+			productReference = 80E774722D56A13E0074DD62 /* Lab_Civan_MetinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80E7747B2D56A13E0074DD62 /* Lab_Civan_MetinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E7748C2D56A13E0074DD62 /* Build configuration list for PBXNativeTarget "Lab_Civan_MetinUITests" */;
+			buildPhases = (
+				80E774782D56A13E0074DD62 /* Sources */,
+				80E774792D56A13E0074DD62 /* Frameworks */,
+				80E7747A2D56A13E0074DD62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80E7747E2D56A13E0074DD62 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				80E7747F2D56A13E0074DD62 /* Lab_Civan_MetinUITests */,
+			);
+			name = Lab_Civan_MetinUITests;
+			packageProductDependencies = (
+			);
+			productName = Lab_Civan_MetinUITests;
+			productReference = 80E7747C2D56A13E0074DD62 /* Lab_Civan_MetinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80E7745A2D56A13C0074DD62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					80E774612D56A13C0074DD62 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					80E774712D56A13E0074DD62 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 80E774612D56A13C0074DD62;
+					};
+					80E7747B2D56A13E0074DD62 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 80E774612D56A13C0074DD62;
+					};
+				};
+			};
+			buildConfigurationList = 80E7745D2D56A13C0074DD62 /* Build configuration list for PBXProject "Lab_Civan_Metin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80E774592D56A13C0074DD62;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 80E774632D56A13C0074DD62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80E774612D56A13C0074DD62 /* Lab_Civan_Metin */,
+				80E774712D56A13E0074DD62 /* Lab_Civan_MetinTests */,
+				80E7747B2D56A13E0074DD62 /* Lab_Civan_MetinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80E774602D56A13C0074DD62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E774702D56A13E0074DD62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E7747A2D56A13E0074DD62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80E7745E2D56A13C0074DD62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E7746E2D56A13E0074DD62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E774782D56A13E0074DD62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80E774742D56A13E0074DD62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80E774612D56A13C0074DD62 /* Lab_Civan_Metin */;
+			targetProxy = 80E774732D56A13E0074DD62 /* PBXContainerItemProxy */;
+		};
+		80E7747E2D56A13E0074DD62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80E774612D56A13C0074DD62 /* Lab_Civan_Metin */;
+			targetProxy = 80E7747D2D56A13E0074DD62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80E774842D56A13E0074DD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80E774852D56A13E0074DD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80E774872D56A13E0074DD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lab_Civan_Metin/Preview Content\"";
+				DEVELOPMENT_TEAM = T7XV8Q2595;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Lab-Civan-Metin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80E774882D56A13E0074DD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lab_Civan_Metin/Preview Content\"";
+				DEVELOPMENT_TEAM = T7XV8Q2595;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Lab-Civan-Metin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80E7748A2D56A13E0074DD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T7XV8Q2595;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Lab-Civan-MetinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab_Civan_Metin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab_Civan_Metin";
+			};
+			name = Debug;
+		};
+		80E7748B2D56A13E0074DD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T7XV8Q2595;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Lab-Civan-MetinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab_Civan_Metin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab_Civan_Metin";
+			};
+			name = Release;
+		};
+		80E7748D2D56A13E0074DD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T7XV8Q2595;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Lab-Civan-MetinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lab_Civan_Metin;
+			};
+			name = Debug;
+		};
+		80E7748E2D56A13E0074DD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T7XV8Q2595;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Lab-Civan-MetinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lab_Civan_Metin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80E7745D2D56A13C0074DD62 /* Build configuration list for PBXProject "Lab_Civan_Metin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E774842D56A13E0074DD62 /* Debug */,
+				80E774852D56A13E0074DD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E774862D56A13E0074DD62 /* Build configuration list for PBXNativeTarget "Lab_Civan_Metin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E774872D56A13E0074DD62 /* Debug */,
+				80E774882D56A13E0074DD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E774892D56A13E0074DD62 /* Build configuration list for PBXNativeTarget "Lab_Civan_MetinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E7748A2D56A13E0074DD62 /* Debug */,
+				80E7748B2D56A13E0074DD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E7748C2D56A13E0074DD62 /* Build configuration list for PBXNativeTarget "Lab_Civan_MetinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E7748D2D56A13E0074DD62 /* Debug */,
+				80E7748E2D56A13E0074DD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80E7745A2D56A13C0074DD62 /* Project object */;
+}
