@@ -20,18 +20,28 @@ struct ContentView: View {
             
             HStack {
                 Button("Prime") {
-                 
+                    checkAnswer(isPrime: true)
                 }
                 .buttonStyle(BorderedButtonStyle())
 
                 Button("Not Prime") {
-                 
+                    checkAnswer(isPrime: false)
                 }
                 .buttonStyle(BorderedButtonStyle())
             }
 
         }
     }
+}
+
+func isPrimeNumber(_ number: Int) -> Bool {
+    guard number > 1 else { return false }
+    for i in 2..<number {
+        if number % i == 0 {
+            return false
+        }
+    }
+    return true
 }
 
 #Preview {
