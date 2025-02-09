@@ -21,7 +21,10 @@ struct ContentView: View {
                 .font(.system(size: 50))
                 .bold()
                 .padding()
-            
+                .transition(.scale)
+                .animation(.easeInOut(duration: 0.3), value: currentNumber)
+
+
             HStack {
                 Button("Prime") {
                     checkAnswer(isPrime: true)
