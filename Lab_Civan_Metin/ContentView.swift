@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct ContentView: View {
     @State private var currentNumber = Int.random(in: 1...100)
     @State private var feedback: String? = nil
@@ -15,7 +14,6 @@ struct ContentView: View {
     @State private var wrongAnswers = 0
     @State private var showResult = false
     @State private var timer: Timer?
-
 
     var body: some View {
         VStack(spacing: 20) {
@@ -41,7 +39,6 @@ struct ContentView: View {
                     .font(.title)
                     .foregroundColor(feedback == "✅" ? .green : .red)
             }
-
         }
         .alert(isPresented: $showResult) {
             Alert(
@@ -49,38 +46,56 @@ struct ContentView: View {
                 message: Text("Correct: \(correctAnswers)\nWrong: \(wrongAnswers)"),
                 dismissButton: .default(Text("OK"), action: resetGame)
             )
+        }
+        .onAppear(perform: startTimer)
     }
-}
 
-func isPrimeNumber(_ number: Int) -> Bool {
-    guard number > 1 else { return false }
-    for i in 2..<number {
-        if number % i == 0 {
-            return false
+    func isPrimeNumber(_ number: Int) -> Bool {
+        guard number > 1 else { return false }
+        for i in 2..<number {
+            if number % i == 0 {
+                return false
+            }
+        }
+        return true
+    }
+
+    func checkAnswer(isPrime: Bool) {
+        timer?.invalidate()
+        
+        let correct = isPrime == isPrimeNumber(currentNumber)
+        
+        if correct {
+            correctAnswers += 1
+            feedback = "✅"
+        } else {
+            wrongAnswers += 1
+            feedback = "❌"
+        }
+        
+        if (correctAnswers + wrongAnswers) % 10 == 0 {
+            showResult = true
+        } else {
+            generateNewNumber()
+            startTimer()
         }
     }
-    return true
-}
-
-func checkAnswer(isPrime: Bool) {
-    let correct = isPrime == isPrimeNumber(currentNumber)
     
-    if correct {
-        correctAnswers += 1
-    } else {
-        wrongAnswers += 1
+    func generateNewNumber() {
+        currentNumber = Int.random(in: 1...100)
+        feedback = nil
     }
-}
-
-func generateNewNumber() {
-    currentNumber = Int.random(in: 1...100)
-    feedback = nil
-}
     
     func startTimer() {
         timer = Timer.scheduledTimer(withTimeInterval: 5.0, repeats: false) { _ in
             wrongAnswers += 1
-            generateNewNumber()
+            feedback = "❌"
+            if (correctAnswers + wrongAnswers) % 10 == 0 {
+                showResult = true
+            } else {
+                generateNewNumber()
+                startTimer()
+            }
         }
     }
     
@@ -90,10 +105,10 @@ func generateNewNumber() {
         generateNewNumber()
         startTimer()
     }
-
-
-
-#Preview {
-    ContentView()
 }
 
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
