@@ -44,6 +44,17 @@ func isPrimeNumber(_ number: Int) -> Bool {
     return true
 }
 
+func checkAnswer(isPrime: Bool) {
+    let correct = isPrime == isPrimeNumber(currentNumber)
+    
+    if correct {
+        correctAnswers += 1
+    } else {
+        wrongAnswers += 1
+    }
+}
+
+
 #Preview {
     ContentView()
 }
