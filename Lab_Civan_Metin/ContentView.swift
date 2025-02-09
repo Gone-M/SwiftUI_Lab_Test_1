@@ -23,7 +23,7 @@ struct ContentView: View {
                 .bold()
                 .padding()
                 .transition(.scale)
-                .animation(.easeInOut(duration: 0.3), value: currentNumber)
+                .animation(.easeInOut(duration: 0.1), value: currentNumber)
 
 
             HStack {
@@ -96,6 +96,7 @@ struct ContentView: View {
             generateNewNumber()
             startTimer()
         }
+        timer?.invalidate()
     }
     
     func generateNewNumber() {
