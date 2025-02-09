@@ -14,6 +14,7 @@ struct ContentView: View {
     @State private var correctAnswers = 0
     @State private var wrongAnswers = 0
     @State private var showResult = false
+    @State private var timer: Timer?
 
 
     var body: some View {
@@ -75,6 +76,13 @@ func generateNewNumber() {
     currentNumber = Int.random(in: 1...100)
     feedback = nil
 }
+    
+    func startTimer() {
+        timer = Timer.scheduledTimer(withTimeInterval: 5.0, repeats: false) { _ in
+            wrongAnswers += 1
+            generateNewNumber()
+        }
+    }
 
 
 #Preview {
