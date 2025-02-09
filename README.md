@@ -25,7 +25,7 @@ This SwiftUI application is designed to test the user's ability to determine whe
 ## 🚀 How to Run the Project
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/Lab_Civan_Metin.git
+   git clone https://github.com/Gone-M/SwiftUI_Lab_Test_1.git
    ```
 2. Open the project in **Xcode**.
 3. Select an **iOS Simulator** or connect a **physical device**.
