@@ -16,7 +16,7 @@ struct ContentView: View {
     @State private var timer: Timer?
 
     var body: some View {
-        VStack(spacing: 20) {
+        VStack(spacing: 30) {
             Text("\(currentNumber)")
                 .font(.system(size: 50))
                 .bold()
