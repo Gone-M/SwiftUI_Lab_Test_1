@@ -13,6 +13,7 @@ struct ContentView: View {
     @State private var feedback: String? = nil
     @State private var correctAnswers = 0
     @State private var wrongAnswers = 0
+    @State private var showResult = false
 
 
     var body: some View {
@@ -41,6 +42,12 @@ struct ContentView: View {
             }
 
         }
+        .alert(isPresented: $showResult) {
+            Alert(
+                title: Text("Results"),
+                message: Text("Correct: \(correctAnswers)\nWrong: \(wrongAnswers)"),
+                dismissButton: .default(Text("OK"), action: resetGame)
+            )
     }
 }
 
