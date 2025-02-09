@@ -83,6 +83,14 @@ func generateNewNumber() {
             generateNewNumber()
         }
     }
+    
+    func resetGame() {
+        correctAnswers = 0
+        wrongAnswers = 0
+        generateNewNumber()
+        startTimer()
+    }
+
 
 
 #Preview {
