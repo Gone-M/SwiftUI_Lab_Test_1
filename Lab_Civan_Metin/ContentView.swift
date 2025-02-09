@@ -26,12 +26,19 @@ struct ContentView: View {
                 Button("Prime") {
                     checkAnswer(isPrime: true)
                 }
-                .buttonStyle(BorderedButtonStyle())
+                .padding()
+                .background(Color.blue)
+                .foregroundColor(.white)
+                .cornerRadius(10)
 
                 Button("Not Prime") {
                     checkAnswer(isPrime: false)
                 }
-                .buttonStyle(BorderedButtonStyle())
+                .padding()
+                .background(Color.red)
+                .foregroundColor(.white)
+                .cornerRadius(10)
+
             }
             
             if let feedback = feedback {
