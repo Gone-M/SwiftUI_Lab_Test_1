@@ -44,8 +44,11 @@ struct ContentView: View {
             if let feedback = feedback {
                 Text(feedback)
                     .font(.title)
-                    .foregroundColor(feedback == "✅" ? .green : .red)
+                    .padding()
+                    .background(feedback == "✅" ? Color.green.opacity(0.3) : Color.red.opacity(0.3))
+                    .cornerRadius(8)
             }
+
         }
         .alert(isPresented: $showResult) {
             Alert(
