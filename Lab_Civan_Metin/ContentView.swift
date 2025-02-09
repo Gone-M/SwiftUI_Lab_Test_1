@@ -17,6 +17,19 @@ struct ContentView: View {
                 .font(.system(size: 50))
                 .bold()
                 .padding()
+            
+            HStack {
+                Button("Prime") {
+                 
+                }
+                .buttonStyle(BorderedButtonStyle())
+
+                Button("Not Prime") {
+                 
+                }
+                .buttonStyle(BorderedButtonStyle())
+            }
+
         }
     }
 }
