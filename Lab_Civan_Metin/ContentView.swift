@@ -52,10 +52,11 @@ struct ContentView: View {
         }
         .alert(isPresented: $showResult) {
             Alert(
-                title: Text("Results"),
-                message: Text("Correct: \(correctAnswers)\nWrong: \(wrongAnswers)"),
-                dismissButton: .default(Text("OK"), action: resetGame)
+                title: Text("Game Over"),
+                message: Text("Correct Answers: \(correctAnswers)\nWrong Answers: \(wrongAnswers)\nTry Again!"),
+                dismissButton: .default(Text("Restart"), action: resetGame)
             )
+
         }
         .onAppear(perform: startTimer)
     }
