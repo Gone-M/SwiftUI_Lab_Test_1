@@ -64,6 +64,11 @@ func checkAnswer(isPrime: Bool) {
     }
 }
 
+func generateNewNumber() {
+    currentNumber = Int.random(in: 1...100)
+    feedback = nil
+}
+
 
 #Preview {
     ContentView()
