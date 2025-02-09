@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var currentNumber = Int.random(in: 1...100)
+    @State private var feedback: String? = nil
 
     var body: some View {
         VStack(spacing: 20) {
@@ -28,6 +29,12 @@ struct ContentView: View {
                     checkAnswer(isPrime: false)
                 }
                 .buttonStyle(BorderedButtonStyle())
+            }
+            
+            if let feedback = feedback {
+                Text(feedback)
+                    .font(.title)
+                    .foregroundColor(feedback == "✅" ? .green : .red)
             }
 
         }
