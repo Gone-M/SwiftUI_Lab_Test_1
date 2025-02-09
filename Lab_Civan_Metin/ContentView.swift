@@ -12,13 +12,12 @@ struct ContentView: View {
     @State private var currentNumber = Int.random(in: 1...100)
 
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: 20) {
+            Text("\(currentNumber)")
+                .font(.system(size: 50))
+                .bold()
+                .padding()
         }
-        .padding()
     }
 }
 
