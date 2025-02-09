@@ -24,6 +24,7 @@ struct ContentView: View {
                 .padding()
                 .transition(.scale)
                 .animation(.easeInOut(duration: 0.1), value: currentNumber)
+            
 
 
             HStack {
@@ -122,6 +123,21 @@ struct ContentView: View {
         wrongAnswers = 0
         generateNewNumber()
         startTimer()
+    }
+}
+
+var correctSound: AVAudioPlayer?
+var wrongSound: AVAudioPlayer?
+
+func playSound(isCorrect: Bool) {
+    let soundName = isCorrect ? "correct" : "wrong"
+    if let soundURL = Bundle.main.url(forResource: soundName, withExtension: "mp3") {
+        do {
+            let player = try AVAudioPlayer(contentsOf: soundURL)
+            player.play()
+        } catch {
+            print("Error loading sound file")
+        }
     }
 }
 
