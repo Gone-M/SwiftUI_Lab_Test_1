@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct ContentView: View {
     @State private var currentNumber = Int.random(in: 1...100)
@@ -78,6 +79,8 @@ struct ContentView: View {
         timer?.invalidate()
         
         let correct = isPrime == isPrimeNumber(currentNumber)
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(isPrime == isPrimeNumber(currentNumber) ? .success : .error)
         
         if correct {
             correctAnswers += 1
