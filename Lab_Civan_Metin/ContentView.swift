@@ -11,6 +11,9 @@ import SwiftUI
 struct ContentView: View {
     @State private var currentNumber = Int.random(in: 1...100)
     @State private var feedback: String? = nil
+    @State private var correctAnswers = 0
+    @State private var wrongAnswers = 0
+
 
     var body: some View {
         VStack(spacing: 20) {
